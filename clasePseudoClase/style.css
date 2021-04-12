@@ -5,3 +5,10 @@
   padding-left: 0;
   background-color: lawngreen;
 }
+
+/* Aplicando estilos a los li del contenedor del elemento clase */
+.main-nav__item {
+  display: inline-block;
+}
+
+
