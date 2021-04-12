@@ -18,3 +18,12 @@
   border-radius: 2px;
   text-decoration: none;
 }
+
+/*Pseudoclase*/
+.main-nav__item a:hover {
+  color: black;
+}
+
+.main-nav__item a:active {
+  color: darkred;
+}
