@@ -11,4 +11,10 @@
   display: inline-block;
 }
 
-
+/* Aplicando estilos específicos en CSS a etiquetas a que están dentro de este elemento */
+.main-nav__item a{
+  color: coral;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
