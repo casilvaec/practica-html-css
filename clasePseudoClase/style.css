@@ -27,3 +27,8 @@
 .main-nav__item a:active {
   color: darkred;
 }
+
+/*PseudoElemento*/
+.main-nav__item a::after {
+  content: " | " ;
+}
