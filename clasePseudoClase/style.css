@@ -1,0 +1,7 @@
+/* Aplicando estilos al contenedor de nuestro elemento clase */
+.main-nav{
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+  background-color: lawngreen;
+}
