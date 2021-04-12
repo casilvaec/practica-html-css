@@ -1,0 +1,18 @@
+/* Mejor práctica para trabajar con css
+invocar CSS por selector Elemento */
+p {
+  color: blue;
+  font-size: 30px;
+}
+
+
+/* Trabajandd CSS por selector clase */
+.parrafo {
+  color: red;
+}
+
+/* Trabajando CSS por selector ID */
+#texto {
+  color: indigo;
+  font-size: 24 px;
+}
