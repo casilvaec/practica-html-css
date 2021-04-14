@@ -1,5 +1,12 @@
 /* Aplicando estilo color rojo a todas las etiquetas párrafo
 que estén cerca de una etiqueta h2*/
-h2 + p {
+/* h2 + p {
+  color: red;
+} */
+
+/* Aplicando estilo hermano general a todas las etiquetas de párrafo
+que tengan como hermano general un h2 */
+h2 ~ p {
   color: red;
 }
+
