@@ -6,7 +6,18 @@ que estén cerca de una etiqueta h2*/
 
 /* Aplicando estilo hermano general a todas las etiquetas de párrafo
 que tengan como hermano general un h2 */
-h2 ~ p {
+/* h2 ~ p {
+  color: red;
+} */
+
+/*div que sea mayor (padre) de una etiqueta párrafo aplicar el siguiente estilo*/
+/* Combinadora hijo directo */
+/* div > p {
+  color: red;
+} */
+
+/*Combinador descendiente*/
+div p {
   color: red;
 }
 
