@@ -1,0 +1,50 @@
+/* Reseteando los valores por default que pone el navegador*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* aplicando estilos a etiqueta h1 */
+h1 {
+  color: purple;
+  font-family: serif;
+  margin-bottom: 10px;
+}
+
+/* aplicando estilos al id de la etiqueta h1 */
+#page-title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Aplicando estilos a la clase de la etiqueta h1 */
+.title {
+  font-size: 18px;
+  font-family: monospace;
+}
+
+/* Aplicando estilos al id del elemento nav*/
+#main-nav {
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Aplicando estilos a los li del id del elemento nav*/
+#main-nav li {
+  display: inline-block;
+}
+
+/* Aplicando estilos a la etiqueta ancla del id del elemento nav */
+#main-nav a {
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Aplicando estilos a sólo un elemento especifico del id del elemento nav, con buena práctica */
+#main-nav .Contactos {
+  background-color: red;
+}
