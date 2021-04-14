@@ -1,0 +1,15 @@
+/* Para poder usar rem como si fueran pixeles. Facilita el cálculo del tamaño*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Las instrucciones de arriba siempre deben ir en los archivos CSS*/
+p {
+  font-size: 1.6rem;
+}
