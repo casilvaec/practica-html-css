@@ -1,0 +1,12 @@
+/* Rompiendo la herencia por default del navegador
+al asignarle nosotros el tamaño de letra que queremos a la etiqueta hmtl */
+html {
+  font-size: 75%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Heredando el tamaño de letra de la etiqueta html a la etiqueta h1 */
+h1 {
+  font-size: inherit;
+}
+
