@@ -13,9 +13,10 @@ h1 {
 }
 
 /* aplicando estilos al id de la etiqueta h1 */
-#page-title {
+/* Por buena práctica se elimina este id*/
+/* #page-title {
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 /* Aplicando estilos a la clase de la etiqueta h1 */
 .title {
@@ -23,20 +24,20 @@ h1 {
   font-family: monospace;
 }
 
-/* Aplicando estilos al id del elemento nav*/
-#main-nav {
+/* Aplicando estilos al id con clases, por buena práctica, del elemento nav*/
+.nav {
   margin-top: 10px;
   list-style-type: none;
   padding-left: 0;
 }
 
-/* Aplicando estilos a los li del id del elemento nav*/
-#main-nav li {
+/* Aplicando estilos con clases, por buena práctica, a los li del id del elemento nav*/
+.nav li {
   display: inline-block;
 }
 
-/* Aplicando estilos a la etiqueta ancla del id del elemento nav */
-#main-nav a {
+/* Aplicando estilos con clases, por buena práctica, a la etiqueta ancla del id del elemento nav */
+.nav a {
   color: white;
   background-color: blue;
   padding: 5px;
@@ -44,7 +45,7 @@ h1 {
   text-decoration: none;
 }
 
-/* Aplicando estilos a sólo un elemento especifico del id del elemento nav, con buena práctica */
-#main-nav .Contactos {
+/* Aplicando estilos a sólo un elemento especifico del id del elemento nav, con clases por buena práctica */
+.nav .contactos {
   background-color: red;
 }
