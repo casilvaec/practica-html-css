@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  width:100%; 
+  background-color: #2E8294
+}
+
+.img img {
+  width: 75px;
+  position: relative;
+  top: 20px; left: 200px;
+}
+
+.nav {
+  text-align: right;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+  bottom: 35px;
+}
+
+.nav a {
+  color: black;
+  background-color: #5CC9E0;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  
+}
+.menu-left {
+  background-color: black;
+  width: 300px;
+  height: 600px;
+  position: absolute;
+}
+
+.block-element-1, .block-element-2, .block-element-3, .block-element-4 {
+  background-color: dodgerblue;
+  display: block;
+  height: 100px;
+  width: 250px;
+  position: relative;
+  top: 60px; left: 10px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.text-central {
+  display: inline-block;
+  font-size: 40px;
+  background-color: #779EA6;
+  width: 1300px;
+  height: 600px;
+  position: relative;
+  left: 300px;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: #178294;
+  position: relative;
+  top: 0;
+}
+
+.footer .img-github img{
+  position: absolute;
+  bottom: 15px; right: 100px;
+  height: 40px;
+}
+
+.footer .img-linkedin img{
+  position: absolute;
+  bottom: 15px; right: 150px;
+  height: 40px;
+}
